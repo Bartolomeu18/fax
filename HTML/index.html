@@ -5,6 +5,22 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="../CSS/index.css">
+       <!--link para o favicon-->
+  <link rel="shortcut icon" href="../IMG/logo2.jfif" type="image/x-icon">
+  <link rel="stylesheet" href="../estilo/style.css">
+  <link rel="stylesheet" media="screen and (min-width:375px) and (max-width:667px)" href="../mediaquery/mobile.css">
+  <!--telefones normais-->
+  <link rel="stylesheet" media="screen and (min-width:360px) and (max-width:740px)" href="../mediaquery/mobile.css">
+  <!--tela igual galaxy s8+-->
+  <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:588px)" href="../mediaquery/mobile.css">
+  <!--tela pequenas-->
+  <link rel="stylesheet" media="screen and (min-width:658px) and (max-width:909px)" href="../mediaquery/tablet.css">
+  <!--tabletes mine-->
+  <link rel="stylesheet" media='screen and  (min-width:662px;) and (max-width:988px;)' href="../mediaquery/tablet2.css">
+  <!--ipads-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,7 +30,12 @@
 <body>
      <header>
           <img src="../IMG/logo2.jfif" alt="logo do federação">
+          
+          <button id="btn-mobile" onclick="toggleMenu()"><img src="../img/menu.png" alt=""></button>
+
           <nav>
+              
+               
                <ul>
                     <li><a href="Sobre-nos.html">Sobre nós</a></li>
                     <li><a href="competições.html">Competições</a></li>
@@ -25,7 +46,9 @@
      </header>
      <div class="wallpaper">
           <h1>Bem-vindo ao Website da<strong> <span id="um">F</span><span id="dois">A</span><span
-                         id="tres">X</span></strong><br>(Federação Angolana de Xadrez)</h1>
+               id="tres">X</span></strong><br>(Federação Angolana de Xadrez)</h1>
+          <h2>Bem-vindo ao Website da<strong> <span id="um">F</span><span id="dois">A</span><span
+                         id="tres">X</span></strong><br>(Federação Angolana de Xadrez)</h2>
           <!--<img src="../IMG/f0d6691a1e5826b52a01d443df6d083c.jpg" alt="">-->
      </div>
      <main>
@@ -102,7 +125,7 @@
 </section>
 <h2>Siga-mos nas Redes Socias</h2>
 <div class="socialmedia">
-    <a href=""><img src="../IMG/instagram.png" alt=""></a>
+    <a href=""><img src="../IMG/instagram.png" alt="" ></a>
     <a href=""><img src="../IMG/youtube.png"alt=""></a>
     <a href=""><img src="../IMG/facebook.png" alt=""></a> 
     <a href=""><img src="../IMG/linkedin.png"alt=""></a>

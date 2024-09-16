@@ -1,0 +1,81 @@
+header ul {
+     display: none;
+}#btn-mobile{
+     display: block;
+     }
+     #btn-mobile {
+       background: none;
+          display: block;
+          position:absolute;
+          top:20%;
+          right: 3%;
+          z-index: 1;
+          border-style: none;
+          border-radius: 5px;
+          outline: none;
+          height: 60px;
+          width: 60px;
+        }
+        #btn-mobile.btnactive{
+        /*  background-color:white;*/
+          display: block;
+          position: fixed;
+          top: 5%;
+          right: 3%;
+          z-index: 100;
+          border-style: none;
+          border-radius: 5px;
+          outline: none;
+          transition: .5s;
+        
+        }
+        #btn-mobile img{
+ margin: auto;
+     height: 60px;
+     width: 60px;
+          }
+          
+.wallpaper h1 {
+     color: #ffffff; 
+     position: absolute;
+     top: 20%;
+     left: 9%;
+}
+.intro{
+     width: 90%;
+     margin: auto;
+     margin-top: 20px;
+     display: flex;
+     gap: 15px;
+}
+.intro img{
+border-radius: 3px;
+width: 50%;
+}
+.intro p{
+margin-top: 8px;
+font-size: large;
+text-align: justify;
+}
+.m_not{
+     width:95% ;
+     text-align: center;
+     margin: auto;
+     height: 1200px;
+}
+.m_not  h1{
+     text-align: center;
+     font-size: xx-large;
+     margin-bottom: 14px;
+     margin-top: 50px;
+  }
+.conteiner{
+    display: flex;
+    justify-content:space-around;   
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+.card{
+     width:40%;
+     height: 536px;
+}

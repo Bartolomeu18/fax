@@ -1,0 +1,116 @@
+header ul {
+     display: none;
+}#btn-mobile{
+     display: block;
+     }
+     #btn-mobile {
+       background: none;
+          display: block;
+          position:absolute;
+          top:20%;
+          right: 3%;
+          z-index: 1;
+          border-style: none;
+          border-radius: 5px;
+          outline: none;
+          height: 60px;
+          width: 60px;
+        }
+        #btn-mobile.btnactive{
+        /*  background-color:white;*/
+          display: block;
+          position: fixed;
+          top: 5%;
+          right: 3%;
+          z-index: 100;
+          border-style: none;
+          border-radius: 5px;
+          outline: none;
+          transition: .5s;
+        
+        }
+        #btn-mobile img{
+ margin: auto;
+     height: 60px;
+     width: 60px;
+          }
+          .wallpaper {
+               height: 400px;
+          }
+
+          .wallpaper h1{
+display: none;
+          }
+          .wallpaper h2{
+          display: block;
+          }
+          .intro{
+               width: 90%;
+               margin: auto;
+               margin-top: 20px;
+               display:block;
+          }
+          .intro img{
+          border-radius: 3px;
+          width:100%;
+          height: 50%;
+          }
+          .intro p{
+          margin-top: 8px;
+          font-size: large;
+          text-align: justify;
+          }.conpetition {
+               height: 400px;
+          }
+          .box{
+               border-radius: 5px;
+               height: 100px;
+               width: 30%;
+               justify-content: space-between;
+            }
+            .m_not{
+               width:90% ;
+               text-align: center;
+               margin: auto;
+               height: auto;
+          }
+          .conteiner{
+               display: block;
+             width: 90%;
+             margin: auto;
+           }
+           .card{
+               width: 100%;
+               height: 529px;
+               background-color:white;
+               border-radius: 5px;   
+               transition: 0.5s ease-in;
+            margin: auto;
+            margin-top: 20px;
+          }
+          .imgConteiner{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-wrap: nowrap;
+               object-fit: cover;
+          }
+          #etu{
+               width: 5%;
+          }
+        
+.newsletter{
+     padding-top: 15px;
+     background-color: #EFB817;
+     height: 100px;
+     display:block;
+     justify-content: space-around;
+     align-items: center;
+}
+.newsletter div{
+padding:7px;
+}
+.socialmedia {
+text-align: center;
+     margin: auto;
+     }

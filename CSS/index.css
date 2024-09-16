@@ -68,6 +68,9 @@ header ul a:hover {
      width: 99%;
      max-width: 1500px;
 }*/
+#btn-mobile{
+display: none;
+}
 .wallpaper {
      background-image: url("../IMG/1000191381-ZkAwRYSAP-transformed.jpeg");
      background-repeat: no-repeat;
@@ -85,12 +88,19 @@ header ul a:hover {
      height: 100%;
 }
 
-.wallpaper h1 {
+.wallpaper h1{
 
      color: #ffffff; 
      position: absolute;
      top: 35%;
      left: 9%;
+}
+.wallpaper h2{
+display: none;
+     color: #ffffff; 
+     position: absolute;
+     top: 23%;
+     left: 5%;
 }
 
 #um{
@@ -235,6 +245,7 @@ display: block;
 .conteiner{
     display: flex;
     justify-content: space-between;    
+    flex-wrap: wrap;
 }
 .card{
      width: 30%;
