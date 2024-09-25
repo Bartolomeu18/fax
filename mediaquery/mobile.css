@@ -3,7 +3,16 @@ header ul {
 }#btn-mobile{
      display: block;
      }
-     #btn-mobile {
+
+     .btn-mobile{
+          width: 35px;
+          height: 5px;
+          background-color: #000000b9;
+          border-radius: 2px;
+          margin:7px ;
+        }
+        
+   /*  #btn-mobile {
        background: none;
           display: block;
           position:absolute;
@@ -18,7 +27,7 @@ header ul {
         }
         #btn-mobile.btnactive{
         /*  background-color:white;*/
-          display: block;
+/*display: block;
           position: fixed;
           top: 5%;
           right: 3%;
@@ -28,7 +37,7 @@ header ul {
           outline: none;
           transition: .5s;
         
-        }
+        }*/
         #btn-mobile img{
  margin: auto;
      height: 60px;

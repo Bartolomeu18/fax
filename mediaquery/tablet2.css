@@ -1,3 +1,20 @@
 header ul {
      display: none;
 }
+#btn-mobile{
+     display: block;
+     }
+
+     .btn-mobile{
+          width: 45px;
+          height: 8px;
+          background-color: #000000b9;
+          border-radius: 2px;
+          margin:7px ;
+        }
+        .m_not{
+          width:95% ;
+          text-align: center;
+          margin: auto;
+          height: 1400px;
+     }

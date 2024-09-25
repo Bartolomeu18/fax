@@ -2,7 +2,19 @@ header ul {
      display: none;
 }#btn-mobile{
      display: block;
+
+    }#btn-mobile{
+     display: block;
      }
+
+     .btn-mobile{
+          width: 45px;
+          height: 8px;
+          background-color: #000000b9;
+          border-radius: 2px;
+          margin:7px ;
+        }
+         /*
      #btn-mobile {
        background: none;
           display: block;
@@ -17,7 +29,6 @@ header ul {
           width: 60px;
         }
         #btn-mobile.btnactive{
-        /*  background-color:white;*/
           display: block;
           position: fixed;
           top: 5%;
@@ -28,12 +39,12 @@ header ul {
           outline: none;
           transition: .5s;
         
-        }
+        }*/
         #btn-mobile img{
  margin: auto;
      height: 60px;
      width: 60px;
-          }
+          }*/
           
 .wallpaper h1 {
      color: #ffffff; 
@@ -61,7 +72,7 @@ text-align: justify;
      width:95% ;
      text-align: center;
      margin: auto;
-     height: 1200px;
+     height: 1400px;
 }
 .m_not  h1{
      text-align: center;
@@ -77,5 +88,5 @@ text-align: justify;
 }
 .card{
      width:40%;
-     height: 536px;
+     height: 600px;
 }
