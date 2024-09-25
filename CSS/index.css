@@ -69,7 +69,7 @@ header ul a:hover {
      max-width: 1500px;
 }*/
 #btn-mobile{
-display: none;
+display: block;
 }
 .wallpaper {
      background-image: url("../IMG/1000191381-ZkAwRYSAP-transformed.jpeg");
